@@ -1,0 +1,185 @@
+/* GOOGLE FONTS  POPPINS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'poppins' sans-serif;
+  
+}
+.container-fluid
+{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.loginup
+{
+  /* background-color: #fff; */
+  border-radius: 6px;
+  padding: 30px;
+  width: 100%;
+  max-width: 430px;
+  position:absolute ;
+  
+  
+}
+.loginup.format
+{
+  opacity: 0;
+  pointer-events: none;
+}
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #cfd0d5;
+    text-align: center;
+}
+form{
+  margin-top: 30px;
+}
+form .field
+{
+  position: relative;
+  width:100%;
+  height: 50px;
+  margin-top: 20px;
+
+}
+.field input
+{
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #CACACA;
+  font-weight: 400;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 0 15px;
+}
+.field input:focus{
+  border-bottom-width: 2px ;
+}
+
+.forgot
+{
+   text-align: center;
+   margin-top: 10px;
+}
+.forgot span,
+.forgot span a
+{
+  font-size: 14px;
+  font-weight: 400;
+  color: #232836;
+
+}
+.forgot a
+{
+  color: #c2c8ce;
+  text-decoration: none;
+}
+.forgot a:hover
+{
+  text-decoration: underline;
+}
+
+.icon-hid
+{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #8b8b8b;
+  cursor: pointer;
+  padding: 5px;
+
+}
+.trait
+{
+  position: relative;
+  height: 1px;
+  width: 100%;
+  margin: 36px 0;
+  background-color: #d4d4d4;
+}
+.trait::before{
+  content: 'Ou';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #232836;
+  padding: 0 15px;
+}
+.btnclr
+{
+  color:#fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.btnclr:hover
+{
+  background-color: #016dcb;
+  color:#fff;
+}
+.media-options a
+{
+  display: flex;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+}
+a.apple
+{
+  color: #fff;
+}
+a.apple .apple-icon
+{
+   height: 28px;
+   width: 28px;
+   color: #0171d3;
+   background-color: #fff ;
+   border-radius: 50%;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.apple-icon
+{
+  position: relative;
+  left: -30px;
+}
+.apple
+{
+  color:#fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.apple:hover
+{
+  background-color: #016dcb;
+  color: #fff;
+}
+
+.st
+{
+   position: relative;
+   bottom: -243px;
+}
+
+@media screen and (max-width : 400px)
+{
+      .loginup
+      {
+         padding: 15px 10px;
+
+      }
+}
